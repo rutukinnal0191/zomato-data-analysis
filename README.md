@@ -8,6 +8,7 @@ This project performs Exploratory Data Analysis (EDA) on Zomato restaurant data 
 ##Objectives
 
 This analysis answers the following business questions:
+
 Do more restaurants provide online delivery compared to offline services?  
 Which types of restaurants are most preferred by customers?  
 What price range do couples prefer while dining out?  
