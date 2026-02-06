@@ -44,7 +44,6 @@ Loaded dataset using Pandas
 
 ##Data Cleaning & Preparation
 
-Converted rating column into numeric format  
 Checked dataset summary  
 Verified missing values  
 
@@ -55,60 +54,71 @@ Verified missing values
 Analyzed restaurant categories to identify most common types.
 
 Insight:
-Dining restaurants dominate the dataset.
+
+north indian food is ordered highest
 
 ##Customer Votes Analysis
 
-Compared customer engagement across restaurant types.
+Compared customer engagement across restaurant.
 
 Insight:
-Dining restaurants receive highest number of votes.
 
-##Most Voted Restaurant
-
-Identified restaurant with highest customer engagement.
+highly populated restaurant Byg Brewski Brewing Company
 
 ##Online Order Availability
 
 Compared number of restaurants providing online ordering.
 
 Insight:
-Most restaurants do not provide online ordering.
+
+Most restaurants provide online ordering are popular
 
 ##Ratings Distribution
+
 Studied rating spread across restaurants.
+
 Insight:
-Most restaurants receive ratings between **3.5 – 4.0**
+
+Most restaurants receive ratings between **3.0 to 3.5**
 
 ##Cost Preference for Couples
 
 Analyzed pricing trends.
 
 Insight:
-Couples prefer restaurants costing around **₹300 for two people**
 
-##Ratings Comparison (Online vs Offline)
+Couples prefer restaurants costing around **rs.200 to rs.400**
 
-Compared ratings between restaurants with and without online delivery.
+##(Online vs Offline)
+
+Compared restaurants with and without online delivery.
 
 Insight:
-Restaurants offering online delivery tend to have slightly better ratings.
 
-##Restaurant Type vs Order Mode
+Many Restaurants offer online delivery 
 
-Created heatmap to identify ordering behavior.
+##Restaurant rating (online vs offline)
+
+compared restaurant with and without online delivery
+
+Insight:
+
+restaurant with online delivery have higher ratings
+
+Created  to  crosstab identify ordering behavior.
 
 Insight:
 - Dining restaurants mostly receive offline orders  
-- Cafes mostly receive online orders  
+- Quick service mostly receive online orders  
 
 ##Key Business Insights
 
 Dining restaurants are most popular  
-Customers engage more with dining-type restaurants  
+Customers engage more with dining-type (north indian) restaurants  
 Moderate pricing attracts more customers  
+online orders are popular
 Online ordering improves restaurant ratings  
-Cafes benefit more from online delivery  
+quick service earn more from online delivery  
 
 ##How To Run The Project
 
