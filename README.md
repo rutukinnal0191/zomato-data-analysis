@@ -126,7 +126,7 @@ Clone repository:
 
 steps to run this project locally:
 
-git clone 
+git clone https://github.com/rutukinnal0191/zomato-data-analysis.git
 
 navigate into the folder cd zomato-data-analysis
 
