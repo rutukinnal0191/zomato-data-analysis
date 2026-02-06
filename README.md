@@ -124,3 +124,11 @@ quick service earn more from online delivery
 
 Clone repository:
 
+steps to run this project locally:
+
+git clone 
+navigate into the folder cd zomato-data-analysis
+pip install pandas numpy matplotlib seaborn
+launch jupyter notebook
+open and run the notebooks/zomato_analysis.ipynb
+
