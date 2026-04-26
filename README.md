@@ -1,138 +1,140 @@
 # Zomato Data Analysis Using Python
 
-# Project Overview
+## Project Overview
 
-Understanding customer preferences and restaurant trends is essential for making data-driven business decisions in the food industry.
-This project performs Exploratory Data Analysis (EDA) on Zomato restaurant data using Python to extract meaningful insights about restaurant popularity, pricing patterns, ratings, and order preferences.
+Understanding customer preferences and restaurant trends is essential for making data-driven decisions in the food industry.
+This project performs **Exploratory Data Analysis (EDA)** on Zomato restaurant data using Python to uncover meaningful insights about restaurant popularity, pricing strategies, ratings, and ordering behavior.
 
-# Objectives
+## Objectives
 
-This analysis answers the following business questions:
+This analysis aims to answer the following business questions:
 
-Do more restaurants provide online delivery compared to offline services?  
-Which types of restaurants are most preferred by customers?  
-What price range do couples prefer while dining out?  
-How ratings vary between online and offline ordering?  
+* Do more restaurants provide online delivery compared to offline services?
+* Which types of restaurants are most common and preferred?
+* What price range do customers prefer while dining out?
+* How do ratings differ between online and offline ordering?
 
-# Dataset Information
+## Dataset Information
 
-The dataset contains restaurant-level details including:
-- Restaurant Name
-- Restaurant Type
-- Online Order Availability
-- Votes
-- Ratings
-- Approximate Cost for Two People
+The dataset contains restaurant-level information such as:
 
-# Technologies Used
+* Restaurant Name
+* Restaurant Type
+* Online Order Availability
+* Number of Votes
+* Ratings
+* Approximate Cost for Two People
+* Cuisine Type
+* Location
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+## Technologies Used
 
-# Project Workflow
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
-# Import Libraries
+## Project Workflow
+
+### 1. Import Libraries
 
 Used Python libraries for data manipulation and visualization.
 
-# Data Loading
+### 2. Data Loading
 
-Loaded dataset using Pandas
+Loaded the dataset using Pandas.
 
-# Data Cleaning & Preparation
+### 3. Data Cleaning & Preparation
 
-Checked dataset summary  
-Verified missing values  
+* Removed unnecessary columns
+* Checked dataset structure and summary
+* Handled missing values in ratings and cost
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
-# Restaurant Type Popularity
+### 1. Cuisine Analysis
 
-Analyzed restaurant categories to identify most common types.
-
-Insight:
-
-north indian food is ordered highest
-
-# Customer Votes Analysis
-
-Compared customer engagement across restaurant.
+Identified the most common cuisines offered by restaurants.
 
 Insight:
+North Indian and fast food cuisines dominate the dataset, indicating high demand but also strong competition.
 
-highly populated restaurant Byg Brewski Brewing Company
+### 2. Customer Votes Analysis
 
-# Online Order Availability
-
-Compared number of restaurants providing online ordering.
-
-Insight:
-
-Most restaurants provide online ordering are popular
-
-# Ratings Distribution
-
-Studied rating spread across restaurants.
+Analyzed restaurants with the highest number of votes.
 
 Insight:
+Highly rated and popular restaurants receive significantly more votes, indicating strong customer engagement and trust.
 
-Most restaurants receive ratings between **3.0 to 3.5**
+### 3. Online Order Availability
 
-# Cost Preference for Couples
-
-Analyzed pricing trends.
-
-Insight:
-
-Couples prefer restaurants costing around **rs.200 to rs.400**
-
-#(Online vs Offline)
-
-Compared restaurants with and without online delivery.
+Compared restaurants offering online ordering.
 
 Insight:
+Most restaurants provide online ordering, showing that it has become a standard service in the industry.
 
-Many Restaurants offer online delivery 
+### 4. Ratings Distribution
 
-# Restaurant rating (online vs offline)
-
-compared restaurant with and without online delivery
-
-Insight:
-
-restaurant with online delivery have higher ratings
-
-Created  to  crosstab identify ordering behavior.
+Analyzed how ratings are distributed across restaurants.
 
 Insight:
-- Dining restaurants mostly receive offline orders  
-- Quick service mostly receive online orders  
+Most restaurants fall in the rating range of **3.0 to 3.5**, indicating average performance and scope for improvement.
 
-# Key Business Insights
+### 5. Cost Preference for Customers
 
-Dining restaurants are most popular  
-Customers engage more with dining-type (north indian) restaurants  
-Moderate pricing attracts more customers  
-online orders are popular
-Online ordering improves restaurant ratings  
-quick service earn more from online delivery  
+Studied pricing trends across restaurants.
 
-# How To Run The Project
+Insight:
+Most restaurants fall in the **₹200–₹400 range for two people**, suggesting customers prefer affordable dining options.
 
-Clone repository:
+### 6. Online vs Offline Orders
 
-steps to run this project locally:
+Compared ordering modes.
+
+Insight:
+Online orders are more common, highlighting the importance of convenience in customer behavior.
+
+### 7. Ratings: Online vs Offline
+
+Compared ratings based on ordering availability.
+
+Insight:
+Restaurants offering online delivery tend to have slightly higher ratings, suggesting better customer satisfaction.
+
+### 8. Restaurant Type vs Ordering Behavior
+
+Analyzed ordering patterns across restaurant types.
+
+**Insight:**
+
+* Quick-service restaurants rely heavily on online orders
+* Dining restaurants show a more balanced mix of online and offline orders
+
+## Key Business Insights
+
+* Online ordering is essential for modern restaurant success
+* Mid-range pricing attracts the majority of customers
+* Most restaurants operate at average ratings, creating opportunities for improvement
+* Cuisine type and restaurant category influence customer engagement
+* Convenience (online ordering) positively impacts customer satisfaction
+
+## How to Run the Project
+
+### Clone the repository
 
 git clone https://github.com/rutukinnal0191/zomato-data-analysis.git
 
-navigate into the folder cd zomato-data-analysis
+### Navigate into the folder
+
+cd zomato-data-analysis
+
+### Install required libraries
 
 pip install pandas numpy matplotlib seaborn
 
-launch jupyter notebook
+### Run the project
 
-open and run the notebooks/zomato_analysis.ipynb
-
+* Launch Jupyter Notebook
+* Open zomato_analysis.ipynb
+* Run all cells
